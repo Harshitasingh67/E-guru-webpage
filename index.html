@@ -35,30 +35,37 @@
 
     </nav>
 
-    <main class="pl-7  mt-16 lg:flex gap-20 lg:pl-16 relative ">
+    <main class="pl-7  mt-16 lg:flex gap-20 lg:pl-16   ">
         <div>
             <h1 class="uppercase text-4xl font-bold pr-16 mb-5 lg:text-5xl ">study from <br> home with expert
             </h1>
-            <p class="border-l-2 border-black pl-2 pr-16 text-xl text-gray-600 w-[460px]">A learning system based on
+            <p class="border-l-2 border-black pl-2 pr-16 text-xl text-gray-600 mb-10">A learning system based on
                 formalised
                 teaching with the help
                 of
                 resources.</p>
 
-            <button class="bg-orange-600 px-3 py-2 mt-8">Get Started</button>
-            <button class="border border-black  px-3 py-2">Learn More</button>
+            <div class="flex">
+                <button class="bg-orange-600 px-7 py-5 mr-6 mt-8 hidden ">Get Started</button>
+                <button class="border border-black  px-3 py-0 hidden lg:block">Learn More</button>
+            </div>
 
         </div>
 
-        <div>
+        <div class="relative ">
 
             <img class="absolute  " src="./assets/main-image-pattern.png" />
 
-            <img src="./assets/main-image-bg.png " />
+            <img class="" src="./assets/main-image-bg.png " />
 
-            <img class="absolute  bottom-3 -right-" src="./assets/main-image.png" />
+            <img class="absolute bottom-5 left-24 sm:left-1/4  lg:bottom-3 lg:right-64" src="./assets/main-image.png" />
 
 
+        </div>
+
+        <div class=" ">
+            <button class="bg-orange-600  px-7 py-3 mr-6 mt-16 text-xl lg:hidden">Get Started</button>
+            <button class="border border-black  px-7 py-3 text-xl lg:hidden">Learn More</button>
         </div>
 
     </main>
